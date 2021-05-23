@@ -2,7 +2,7 @@
 
 **系统演示链接：[http://books.cyouagain.cn](http://books.cyouagain.cn)**
 
-**源码大全：[https://gitee.com/cyouagain/graduation](https://gitee.com/cyouagain/graduation)**
+**源码大全：[https://github.com/2825511730/graduation](https://github.com/2825511730/graduation)**
 
 
 
