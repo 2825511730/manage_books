@@ -6,6 +6,8 @@
 
 **获取源码：微信搜索公众号【IT学长】回复“基于web的图书管理系统”**
 
+**详细开发文档：[《基于Web的图书管理系统设计与实现（附源码下载地址）》](https://mp.weixin.qq.com/s/zZ40HrMcNoUx87aH8dGfhw)**
+
 **运行教程：[《基于Web的图书管理系统运行教程》](https://mp.weixin.qq.com/s/tMrcyR2cpHfZ4NjGdBUIrA)**
 
 @[toc]
