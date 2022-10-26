@@ -1,14 +1,14 @@
-**创作不易，记得 Star！！**
-
-**系统演示链接：[http://books.cyouagain.cn](http://books.cyouagain.cn)**
-
-**源码大全：[https://github.com/2825511730/graduation](https://github.com/2825511730/graduation)**
 
 
+**计算机类毕设源码大全：[十几套计算机专业毕业设计文档及源码分享](https://mp.weixin.qq.com/mp/homepage?__biz=MzkyMDAxNTQ4NQ==&hid=5&sn=097a81acff1e1971604ea1b571c13b9e&scene=18)** 
 
-<font color="red">**源码下载：微信公众号【C you again】，回复“基于web的图书管理系统”免费下载**</font>
+**系统演示链接：[点击这里查看演示](http://books.cyouagain.cn)**
 
-![微信扫码回复“基于web的图书管理系统”下载源码](https://img-blog.csdnimg.cn/20210121202545964.png)
+**获取源码：微信搜索公众号【IT学长】回复“基于web的图书管理系统”**
+
+**运行教程：[《基于Web的图书管理系统运行教程》](https://mp.weixin.qq.com/s/tMrcyR2cpHfZ4NjGdBUIrA)**
+
+@[toc]
 
 ## 01 系统简述
 图书管理系统就是利用计算机，结合互联网对图书进行结构化、自动化管理的一种软件，来提高对图书的管理效率。本系统采用Java+Servlet+Jsp 的方式实现基于web的图书管理系统。
@@ -25,17 +25,13 @@ HTML的英文全称是 Hypertext Marked Language，即超文本标记语言。HT
 JavaScript（简称“JS”） 是一种具有函数优先的轻量级，解释型或即时编译型的编程语言。虽然它是作为开发Web页面的脚本语言而出名的，但是它也被用到了很多非浏览器环境中，JavaScript 基于原型编程、多范式的动态脚本语言，并且支持面向对象、命令式和声明式（如函数式编程）风格。JavaScript在1995年由Netscape公司的Brendan Eich，在网景导航者浏览器上首次设计实现而成。因为Netscape与Sun合作，Netscape管理层希望它外观看起来像Java，因此取名为JavaScript。但实际上它的语法风格与Self及Scheme较为接近。JavaScript的标准是ECMAScript 。截至 2012 年，所有浏览器都完整的支持ECMAScript 5.1，旧版本的浏览器至少支持ECMAScript 3 标准。2015年6月17日，ECMA国际组织发布了ECMAScript 的第六版，该版本正式名称为 ECMAScript 2015，但通常被称为ECMAScript 6 或者ES6。
 
 #### 2.3 Servlet技术
-
 Servlet（Server Applet）是Java Servlet的简称，称为小服务程序或服务连接器，用Java编写的服务器端程序，具有独立于平台和协议的特性，主要功能在于交互式地浏览和生成数据，生成动态Web内容。
 
 狭义的Servlet是指Java语言实现的一个接口，广义的Servlet是指任何实现了这个Servlet接口的类，一般情况下，人们将Servlet理解为后者。Servlet运行于支持Java的应用服务器中。从原理上讲，Servlet可以响应任何类型的请求，但绝大多数情况下Servlet只用来扩展基于HTTP协议的Web服务器。
-
 #### 2.4 Eclipse开发工具
-
 Eclipse 是一个开放源代码的、基于Java的可扩展开发平台。就其本身而言，它只是一个框架和一组服务，用于通过插件组件构建开发环境。幸运的是，Eclipse 附带了一个标准的插件集，包括Java开发工具（Java Development Kit，JDK）。
 
 #### 2.5 MySql数据库
-
 MySql是最流行的关系型数据库管理系统，在WEB应用方面MySQL是最好的RDBMS(Relational Database Management System：关系数据库管理系统)应用软件之一。MySql数据库有以下特点：
 
  1. Mysql是开源的，所以你不需要支付额外的费用。 
@@ -47,12 +43,10 @@ MySql是最流行的关系型数据库管理系统，在WEB应用方面MySQL是�
  8. Mysql是可以定制的，采用了GPL协议，你可以修改源码来开发自己的Mysql系统。
 
 ## 03 系统功能描述
-
 系统的用户主要有两大类：一是图书管理系统的管理员，二是普通用户。根据用户类型的不同，将系统划分为普通用户端和管理员端，它们具有的主要功能如下：
 
 **用户端**
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200711142212377.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200711142212377.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjI1Nzc4,size_16,color_FFFFFF,t_70)
 
 图书查询：根据图书编号、图书名称查询图书信息，可查询图书的编号、名称、分类、作者、价格、在馆数量等。
 
@@ -63,9 +57,7 @@ MySql是最流行的关系型数据库管理系统，在WEB应用方面MySQL是�
 我的：查看个人资料，修改账户密码，退出系统。
 
 **管理员端**
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200711142331762.png)
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200711142331762.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjI1Nzc4,size_16,color_FFFFFF,t_70)
 图书管理：根据图书编号、图书名称查询图书基本信息，添加、修改、删除图书。
 
 图书分类管理：根据分类名称查询图书分类信息，添加、修改、删除图书分类。
@@ -81,23 +73,15 @@ MySql是最流行的关系型数据库管理系统，在WEB应用方面MySQL是�
 我的：查看个人资料，修改账户密码，退出系统。
 
 ## 04 工程结构及其说明
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200711142439453.png)
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200711142439453.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjI1Nzc4,size_16,color_FFFFFF,t_70)
 项目名称：manage_books
-
 Package包说明：
-
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200711142614767.png)
 
 ## 05 主要功能详细设计与实现
-
 #### 5.1 用户端--图书查询模块
-
 用户访问图书查询模块时显示当前可以借阅图书，有按图书名称查询图书信息的功能，可以进行借书操作。
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200711142820895.png)
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200711142820895.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjI1Nzc4,size_16,color_FFFFFF,t_70)
 其中查询功能的Servlet代码如下：
 
 ```java
@@ -165,11 +149,8 @@ public class selectServlet extends HttpServlet {
 ```
 
 #### 5.2 用户端--借阅信息模块
-
 当普通用户借阅完图书，会在该模块自动生成借阅信息，如借阅日期，归还日期，也可在该模块进行还书，如下图所示。
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200711143029669.png)
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200711143029669.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjI1Nzc4,size_16,color_FFFFFF,t_70)
 其中，还书功能的Servlet代码如下：
 
 ```java
@@ -264,19 +245,14 @@ public class borrowServlet extends HttpServlet {
 }
 ```
 #### 5.3 管理员端--图书管理模块
-
 管理员可以通过根据图书号 、图书名称，作者名称，出版社等查询图书信息。
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200711143221127.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200711143221127.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjI1Nzc4,size_16,color_FFFFFF,t_70)
 
 管理员登录系统以后，可以进行图书添加操作，这是管理员主要的输入信息部分，填写好各项信息后，单击保存按钮，系统将对这些信息进行处理。界面见下图所示：
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200711143310535.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200711143310535.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjI1Nzc4,size_16,color_FFFFFF,t_70)
 
 除此以外，管理员对已经添加好的图书信息有修改权限。
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200711143409474.png)
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200711143409474.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNjI1Nzc4,size_16,color_FFFFFF,t_70)
 其中，添加图书功能的代码如下：
 
 ```java
@@ -337,13 +313,9 @@ public class AddBookServlet extends HttpServlet {
 ```
 
 #### 5.4 管理员端--图书分类模块
-
 管理员在该界面可以增加、删除、修改图书分类信息，操作效果如图。
-
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200711143555646.png)
-
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200711143617913.png)
-
 修改图书分类功能的代码如下：
 
 ```java
@@ -398,13 +370,6 @@ public class updateBookTypeServlet extends HttpServlet {
 }
 ```
 
+## 06 源码下载
 
-
-> **作者：** C you again，从事软件开发  努力在IT搬砖路上的技术小白
->
-> **公众号：** 【**[<font color="#5094d5" ><u>C you again</u></font>](https://cyouagain.cn/)**】，分享计算机类毕业设计源码、IT技术文章、游戏源码、网页模板、程序人生等等。公众号回复 【<font color="#e33e33" >**粉丝**</font>】进博主技术群，与大佬交流，**领取干货学习资料**
->
-> **关于转载**：欢迎转载博主文章，转载时表明出处
->
-> **求赞环节**：创作不易，记得 <font color="#e33e33" >点赞</font>+<font color="#e33e33" >评论</font>+<font color="#e33e33" >转发</font> 谢谢你一路支持
-> 
+本期文章就分享到这里，创作不易欢迎点赞分享！原创文章，转载请注明出处。如需<font color='red'>**本系统完整源码请在微信搜索公众号【IT学长】，后台回复 `“基于web的图书管理系统”`**</font>。
