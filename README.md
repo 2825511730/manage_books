@@ -10,6 +10,8 @@
 
 **运行教程：[《基于Web的图书管理系统运行教程》](https://mp.weixin.qq.com/s/tMrcyR2cpHfZ4NjGdBUIrA)**
 
+**演示截图：[《基于Web的图书管理系统演示截图》](https://blog.csdn.net/m0_73470247/article/details/126644988)**
+
 @[toc]
 
 ## 01 系统简述
